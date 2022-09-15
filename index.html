@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.27.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <section class="container">
+        <h1 class="text-4xl font-bold text-center mt-40 mb-10">Day Finder</h1>
+        <div class="flex flex-col px-20 items-center space-y-3">
+            <input type="number" id="date" placeholder="DD" class="input input-bordered w-full max-w-xs" />
+            <input type="text" id="month" placeholder="MMM" class="input input-bordered w-full max-w-xs" />
+            <input type="number" id="year" placeholder="YYYY" class="input input-bordered w-full max-w-xs" />
+            <button id="find-day-btn" class="btn btn-outline">Find Day</button>
+            <h2 id="result" class="text-2xl font-bold"></h2>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
